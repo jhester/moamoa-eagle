@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="21-0241A_24">
+<wire x1="-17.018" y1="28.3464" x2="-17.018" y2="27.5336" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="25.8064" x2="-17.018" y2="24.9936" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="23.2664" x2="-17.018" y2="22.4536" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="20.7264" x2="-17.018" y2="19.9136" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="18.1864" x2="-17.018" y2="17.3736" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="15.6464" x2="-17.018" y2="14.8336" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="13.1064" x2="-17.018" y2="12.2936" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="10.5664" x2="-17.018" y2="9.7536" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="8.0264" x2="-17.018" y2="7.2136" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="5.4864" x2="-17.018" y2="4.6736" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="2.9464" x2="-17.018" y2="2.1336" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="0.4064" x2="-17.018" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-0.4064" x2="1.778" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="2.1336" x2="1.778" y2="2.9464" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="4.6736" x2="1.778" y2="5.4864" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="7.2136" x2="1.778" y2="8.0264" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="9.7536" x2="1.778" y2="10.5664" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="12.2936" x2="1.778" y2="13.1064" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="14.8336" x2="1.778" y2="15.6464" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="17.3736" x2="1.778" y2="18.1864" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="19.9136" x2="1.778" y2="20.7264" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="22.4536" x2="1.778" y2="23.2664" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="24.9936" x2="1.778" y2="25.8064" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="27.5336" x2="1.778" y2="28.3464" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="-3.048" x2="1.778" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-3.048" x2="1.778" y2="30.988" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="30.988" x2="-7.3152" y2="30.988" width="0.1524" layer="51"/>
+<wire x1="-7.3152" y1="30.988" x2="-7.9248" y2="30.988" width="0.1524" layer="51"/>
+<wire x1="-7.9248" y1="30.988" x2="-17.018" y2="30.988" width="0.1524" layer="51"/>
+<wire x1="-17.018" y1="30.988" x2="-17.018" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-7.3152" y1="30.988" x2="-7.9248" y2="30.988" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-17.145" y1="-3.175" x2="1.905" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-3.175" x2="1.905" y2="31.115" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="31.115" x2="-17.145" y2="31.115" width="0.1524" layer="21"/>
+<wire x1="-17.145" y1="31.115" x2="-17.145" y2="-3.175" width="0.1524" layer="21"/>
+<text x="-20.4388" y="33.85" size="0.4003375" layer="25">&gt;NAME</text>
+<text x="-20.4383" y="-0.700571875" size="0.400328125" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="1" x="-15.24" y="27.94" drill="0.7874" diameter="1.2954" shape="square"/>
+<pad name="2" x="-15.24" y="25.4" drill="0.7874" diameter="1.2954"/>
+<pad name="3" x="-15.24" y="22.86" drill="0.7874" diameter="1.2954"/>
+<pad name="4" x="-15.24" y="20.32" drill="0.7874" diameter="1.2954"/>
+<pad name="5" x="-15.24" y="17.78" drill="0.7874" diameter="1.2954"/>
+<pad name="6" x="-15.24" y="15.24" drill="0.7874" diameter="1.2954"/>
+<pad name="7" x="-15.24" y="12.7" drill="0.7874" diameter="1.2954"/>
+<pad name="8" x="-15.24" y="10.16" drill="0.7874" diameter="1.2954"/>
+<pad name="9" x="-15.24" y="7.62" drill="0.7874" diameter="1.2954"/>
+<pad name="10" x="-15.24" y="5.08" drill="0.7874" diameter="1.2954"/>
+<pad name="11" x="-15.24" y="2.54" drill="0.7874" diameter="1.2954"/>
+<pad name="12" x="-15.24" y="0" drill="0.7874" diameter="1.2954"/>
+<pad name="13" x="0" y="0" drill="0.7874" diameter="1.2954"/>
+<pad name="14" x="0" y="2.54" drill="0.7874" diameter="1.2954"/>
+<pad name="15" x="0" y="5.08" drill="0.7874" diameter="1.2954"/>
+<pad name="16" x="0" y="7.62" drill="0.7874" diameter="1.2954"/>
+<pad name="17" x="0" y="10.16" drill="0.7874" diameter="1.2954"/>
+<pad name="18" x="0" y="12.7" drill="0.7874" diameter="1.2954"/>
+<pad name="19" x="0" y="15.24" drill="0.7874" diameter="1.2954"/>
+<pad name="20" x="0" y="17.78" drill="0.7874" diameter="1.2954"/>
+<pad name="21" x="0" y="20.32" drill="0.7874" diameter="1.2954"/>
+<pad name="22" x="0" y="22.86" drill="0.7874" diameter="1.2954"/>
+<pad name="23" x="0" y="25.4" drill="0.7874" diameter="1.2954"/>
+<pad name="24" x="0" y="27.94" drill="0.7874" diameter="1.2954"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DS12887">
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-33.02" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="63.5" y2="-33.02" width="0.1524" layer="94"/>
+<wire x1="63.5" y1="-33.02" x2="63.5" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="63.5" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="30.8757" y="9.13048125" size="2.085509375" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="30.2694" y="6.593590625" size="2.08755" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<pin name="MOT" x="0" y="0" direction="pas"/>
+<pin name="NC_2" x="0" y="-2.54" direction="pas"/>
+<pin name="NC_3" x="0" y="-5.08" direction="pas"/>
+<pin name="AD0" x="0" y="-7.62" direction="pas"/>
+<pin name="AD1" x="0" y="-10.16" direction="pas"/>
+<pin name="AD2" x="0" y="-12.7" direction="pas"/>
+<pin name="AD3" x="0" y="-15.24" direction="pas"/>
+<pin name="AD4" x="0" y="-17.78" direction="pas"/>
+<pin name="AD5" x="0" y="-20.32" direction="pas"/>
+<pin name="AD6" x="0" y="-22.86" direction="pas"/>
+<pin name="AD7" x="0" y="-25.4" direction="pas"/>
+<pin name="GND" x="0" y="-27.94" direction="pwr"/>
+<pin name="*CS" x="71.12" y="-27.94" direction="pas" rot="R180"/>
+<pin name="AS" x="71.12" y="-25.4" direction="pas" rot="R180"/>
+<pin name="R/*W" x="71.12" y="-22.86" direction="pas" rot="R180"/>
+<pin name="NC_4" x="71.12" y="-20.32" direction="pas" rot="R180"/>
+<pin name="DS" x="71.12" y="-17.78" direction="pas" rot="R180"/>
+<pin name="*RESET" x="71.12" y="-15.24" direction="pas" rot="R180"/>
+<pin name="*IRQ" x="71.12" y="-12.7" direction="pas" rot="R180"/>
+<pin name="NC_5" x="71.12" y="-10.16" direction="pas" rot="R180"/>
+<pin name="NC(*RCLR)" x="71.12" y="-7.62" direction="pas" rot="R180"/>
+<pin name="NC" x="71.12" y="-5.08" direction="pas" rot="R180"/>
+<pin name="SQW" x="71.12" y="-2.54" direction="pas" rot="R180"/>
+<pin name="VCC" x="71.12" y="0" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS12887" prefix="U">
+<gates>
+<gate name="A" symbol="DS12887" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="21-0241A_24">
+<connects>
+<connect gate="A" pin="*CS" pad="13"/>
+<connect gate="A" pin="*IRQ" pad="19"/>
+<connect gate="A" pin="*RESET" pad="18"/>
+<connect gate="A" pin="AD0" pad="4"/>
+<connect gate="A" pin="AD1" pad="5"/>
+<connect gate="A" pin="AD2" pad="6"/>
+<connect gate="A" pin="AD3" pad="7"/>
+<connect gate="A" pin="AD4" pad="8"/>
+<connect gate="A" pin="AD5" pad="9"/>
+<connect gate="A" pin="AD6" pad="10"/>
+<connect gate="A" pin="AD7" pad="11"/>
+<connect gate="A" pin="AS" pad="14"/>
+<connect gate="A" pin="DS" pad="17"/>
+<connect gate="A" pin="GND" pad="12"/>
+<connect gate="A" pin="MOT" pad="1"/>
+<connect gate="A" pin="NC" pad="22"/>
+<connect gate="A" pin="NC(*RCLR)" pad="21"/>
+<connect gate="A" pin="NC_2" pad="2"/>
+<connect gate="A" pin="NC_3" pad="3"/>
+<connect gate="A" pin="NC_4" pad="16"/>
+<connect gate="A" pin="NC_5" pad="20"/>
+<connect gate="A" pin="R/*W" pad="15"/>
+<connect gate="A" pin="SQW" pad="23"/>
+<connect gate="A" pin="VCC" pad="24"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Ic, Dal, Ds12887 Dip-24, Rtc w/Ram 128 Byte "/>
+<attribute name="MF" value="Maxim Integrated"/>
+<attribute name="MP" value="DS12887"/>
+<attribute name="PACKAGE" value="DIP-24 Maxim Integrated"/>
+<attribute name="PRICE" value="7.75 USD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
