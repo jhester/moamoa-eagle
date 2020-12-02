@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -130,7 +130,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LMS6DSL" prefix="U">
+<deviceset name="LSM6DSL" prefix="U">
 <description>&lt;b&gt;LSM6DSL
 iNEMO inertial module:
  always-on 3D accelerometer and 3D gyroscope&lt;/b&gt;
@@ -177,7 +177,10 @@ the creation and manufacturing of reliable products.&lt;/p&gt;</description>
 <connect gate="U1" pin="VDD_IO" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFR" value="STM" constant="no"/>
+<attribute name="MFR_PN" value="LSM6DSLTR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
